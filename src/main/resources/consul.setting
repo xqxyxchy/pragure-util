@@ -1,0 +1,10 @@
+# ------------------------------------
+# --处理的consul信息
+# ------------------------------------
+[host]
+ip=192.168.3.205
+port=8500
+
+[consul]
+services=http://${host.ip}:${host.port}/v1/agent/services
+services.deregister=http://${host.ip}:${host.port}/v1/agent/service/deregister

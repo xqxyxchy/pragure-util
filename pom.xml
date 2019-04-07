@@ -12,8 +12,6 @@
 
 		<junit.version>4.10</junit.version>
 
-		<dom4j.version>1.6.1</dom4j.version>
-		<jaxen.version>1.1.6</jaxen.version>
 		<hutool-all.version>4.5.0</hutool-all.version>
 		<slf4j.version>1.7.7</slf4j.version>
 	</properties>
@@ -26,16 +24,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>dom4j</groupId>
-			<artifactId>dom4j</artifactId>
-			<version>${dom4j.version} </version>
-		</dependency>
-		<dependency>
-			<groupId>jaxen</groupId>
-			<artifactId>jaxen</artifactId>
-			<version>${jaxen.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>cn.hutool</groupId>
 			<artifactId>hutool-all</artifactId>
