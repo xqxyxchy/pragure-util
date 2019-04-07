@@ -1,0 +1,45 @@
+# ------------------------------------
+# -- 处理目录
+# ------------------------------------
+[dir]
+root = G:\\release\\v2.8.5
+dir = all
+
+# ------------------------------------
+# -- 处理模块
+# ------------------------------------
+[module]
+pc = product-v2.8.5
+app = product-app-v2.8.5
+
+# ------------------------------------
+# -- 高级版处理
+# ------------------------------------
+[senior]
+dir = 高级版源码
+${module.pc}/product-persist-root = 1
+
+# ------------------------------------
+# -- 标准版处理
+# ------------------------------------
+[standard]
+dir = 标准版源码
+${module.pc}/product-persist-root = 1
+${module.pc}/product-base-root = 1
+${module.pc}/product-components-root = 1
+${module.pc}/product-report-root = 1
+${module.pc}/product-form-root = 1
+
+# ------------------------------------
+# -- 初级版处理
+# ------------------------------------
+[junior]
+dir = 初级版源码
+${module.pc}/product-persist-root = 1
+${module.pc}/product-base-root = 1
+${module.pc}/product-components-root = 1
+${module.pc}/product-report-root = 1
+${module.pc}/product-form-root = 1
+${module.pc}/product-common-root = 1
+${module.pc}/product-auth-root = 1
+${module.pc}/product-api-root = 1

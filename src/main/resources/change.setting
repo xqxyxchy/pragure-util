@@ -1,0 +1,15 @@
+# ------------------------------------
+# -- 处理目录
+# ------------------------------------
+[dir]
+dir = G:\\release\\v2.8.5\\all\\
+
+[change.log]
+ibps.changeLog.txt = /branches/v2.x/v2.8_bugfix;/tags/2.x/2.8/2.8.5
+
+[exclude]
+/branches/v2.x/v2.8_bugfix/persist-root = 
+/tags/2.x/2.8/2.8.5/persist-root = 
+
+[code.dir]
+ibps.changeLog.txt = product-v2.8.5

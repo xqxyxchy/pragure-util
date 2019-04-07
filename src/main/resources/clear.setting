@@ -1,0 +1,16 @@
+# ------------------------------------
+# -- 处理目录
+# ------------------------------------
+[dir]
+dir = .
+
+# ------------------------------------
+# -- 删除文件文件
+# ------------------------------------
+[delete.file]
+test.txt = 1
+
+[delete.property]
+test = test.properties
+
+http://nexus.pragure.com:8081/nexus/content/repositories/releases/ = pom.xml
