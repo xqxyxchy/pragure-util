@@ -1,0 +1,25 @@
+#timer.inner = false
+##毫秒 3*60*1000=180000
+timer.interval = 3000
+
+[email]
+#邮箱设置-发送方
+sender.name =
+sender.address =
+sender.password = 
+sender.smtp = 
+
+[monitor]
+name = 数据库服务器-190
+cpu = 0.75
+mem = 0.9
+disk = 0.9
+
+# 缓存设置，秒
+cache.over = 180
+cache.notify = 3600
+
+# 邮件通知
+email.enable = true
+# 多个邮箱可使用逗号“,”分隔
+email.address = xqxyxchy@126.com
